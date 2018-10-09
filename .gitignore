@@ -1,0 +1,13 @@
+/samples/node_modules
+/6nations/node_modules
+/6nationsRESTAPI/node_modules
+/6nationsdb/node_modules
+/chatapp/node_modules
+/fileserver/node_modules
+/mysqlteams/node_modules
+/restapi1/node_modules
+/restapi2/node_modules
+.DS_Store
+.DS_Store?
+Thumbs.db
+
