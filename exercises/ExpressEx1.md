@@ -53,7 +53,7 @@ Change to the ``samples`` folder using the Command Prompt.
 
 	```
 
-	and using your web browser open [http://localhost:3000/noucamp/](http://localhost:3000/mary/).
+	and using your web browser open [http://localhost:3000/mary/](http://localhost:3000/mary/).
 
 1.	Examine & run ``app3.js``:
 
