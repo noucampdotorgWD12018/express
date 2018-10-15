@@ -43,28 +43,27 @@ $ node index.js
 
 1. Modify the the code in ``teams.html`` and ``teams.js`` to add the team names to a dropdown box.  The dropdown box ``value`` attributes should correspond the the team id.  i.e.
 
-```html
-<select>
-<option value="1">England</option>
-<option value="2">France</option>
-<option value="3">Ireland</option>
-<option value="4">Italy</option>
-<option value="5">Scotland</option>
-<option value="6">Wales</option>
-</select>
+	```html
+	<select>
+	<option value="1">England</option>
+	<option value="2">France</option>
+	<option value="3">Ireland</option>
+	<option value="4">Italy</option>
+	<option value="5">Scotland</option>
+	<option value="6">Wales</option>
+	</select>
+	```
 
 1. Examine the ``index.js`` program that has an incomplete route to get specific team results.  Modify this route so it returns results for any given team id.  For example, get the results for England with - [http://localhost:3000/results/team/1](http://localhost:3000/results/team/1)
 
-
 1. Modify the the code in ``teams.html`` and ``teams.js`` again to display the results for the team chosen from the dropdown box.  Use a ``<table>`` to show the results.
-
 
 1. Push your code to **your private** repository on GitHub.  Type these commands into your *Git Bash* client:
 
 ```
 $ git status
 $ git add .
-$ git commit -m "Exercise 1 - Part 3 DONE|PARTIAL|HELP"
+$ git commit -m "Exercise 2 - DONE|PARTIAL|HELP"
 $ git push origin master
 $ git status
 
