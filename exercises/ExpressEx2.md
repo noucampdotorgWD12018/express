@@ -20,6 +20,7 @@ Check your ``htdocs`` folder.  You should have a new folder called ``6nations`` 
 ```
 $ cd /<DRIVE>/xampp/htdocs/Express/6nations  
 
+$ npm init
 $ npm install express --save
 $ npm install underscore --save
 $ npm install cors --save
