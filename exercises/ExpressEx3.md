@@ -13,12 +13,12 @@ $ git status
 
 Check your ``htdocs/express`` folder.  You should have a new folder called ``who`` with some files in it.
 
-## 6nations Web Application
+## who Web Application
 
 1. Change to the ``who`` folder and install the modules ``express``, ``body-parser`` and ``cors``:
 
 ```
-$ cd /<DRIVE>/xampp/htdocs/Express/6nations  
+$ cd /<DRIVE>/xampp/htdocs/Express/who  
 
 $ npm init
 $ npm install express --save
@@ -37,8 +37,6 @@ $ node index.js
 1. Using your web browser open [http://localhost:3000/who](http://localhost:3000/who).  Examine the code to understand this output.
 
 1. Using your web browser open [http://localhost/express/who/whoAdd.html](http://localhost/express/who/whoAdd.html).  Add some details. 
-
-1. Using your web browser open [http://localhost:3000/results](http://localhost:3000/results).  Examine and understand the source code in ``index.js`` that implements this route.
 
 1. Using your web browser open [http://localhost:3000/who](http://localhost:3000/who) **again**.  Understand this output.
 
