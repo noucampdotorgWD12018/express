@@ -46,3 +46,28 @@ Just use ``nodemon`` instead of ``node`` to run your code, and now your process 
 	```
 
 1.	Then use *PostMan* to send a ``GET`` request to the route ``/who``.  You should see the new JSON object sent in the POST request above.
+
+
+# Part 4 – Express File Server
+
+1.	In Part 3 two *static* files where used:
+
+	-	``whoAdd.html``
+	-	``whoAdd.js``
+
+	These files were handled/served by the XAMPP server.  It's not necessary to use XAMPP to serve these files when Express can do this for you in your web app.
+
+	Move these files to a new ``public`` subfolder within the ``who`` web app and serve them using the web app, not XAMPP.  
+
+	Test it works by using the URLs [http://localhost:3000/whoAdd.html](http://localhost:3000/whoAdd.html)
+
+1.	Push your code to **your private** repository on GitHub.  Type these commands into your *Git Bash* client:
+
+	```
+	$ git status
+	$ git add .
+	$ git commit -m "Exercise 4 - Part 4 DONE|PARTIAL|HELP"
+	$ git push origin master
+	$ git status
+
+	```
