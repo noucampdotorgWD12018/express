@@ -13,7 +13,7 @@ $ git status
 
 1.	View the video demo [here](https://media.heanet.ie/page/cb34dd156f6c0315c8af495a8a08fc0b) of the *Chat App*
 
-1.	View the code in [http://localhost:3000/chatapp/chatapp.html](http://localhost:3000/chatapp.html) and ``chatapp.js``.  Modify this code so it implements what you see in the video.  
+1.	View the code in [http://localhost:3000/chatapp.html](http://localhost:3000/chatapp.html) and ``chatapp.js``.  Modify this code so it implements what you see in the video.  
 
 	You do not need to use the Express web app yet.  Just attempt to add the messages directly to the ``chatapp.html`` page for now.
 
